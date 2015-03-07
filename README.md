@@ -1,3 +1,5 @@
+# EasyCNN
+
 This is a an example of a library and an application which mock object recognition using convolutional neural network.
 
 Requires CMake >=2.8 (not included)
@@ -34,4 +36,4 @@ Delete folder 'EasyCNNApp_install' from the root of the project
 
 
 
-# EasyCNN
+
