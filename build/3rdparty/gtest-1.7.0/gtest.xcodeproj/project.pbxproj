@@ -1,0 +1,1184 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              AA59D97442024222871C8F20 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 75F9C9F7451C4ABB8042ED44 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            449EA53DE5A545E2B56E9194 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            C49BBA184575433DA29F762C /* PBXTargetDependency */,
+                            1BAC20C0AB644E8AB5DE985F /* PBXTargetDependency */,
+                            03A5A91268C44921B94075EB /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              09470D2C2A0942569A10DD26 /* RUN_TESTS */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 5AC8E2B5EA5A4FE8A144B51F /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+                     buildPhases = (
+                            8D8E99E8366046148F3679B9 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = RUN_TESTS;
+                     productName = RUN_TESTS;
+              };
+              CD55FB7ABE354345974CC7C1 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 80533084E8084D18BAFB8EE3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            8B0A391A2B8342E081761648 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              8107596B66DE4C9DAB94B808 /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 8D107D8263BB4F92B68659A4 /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            48FE88379054461BA50D8511 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            94AF32D251E348C5BE200DA1 /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+93A63DFC36E549A889131728 /* /Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 836C611E9AC148DE9188E286 /* /Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+E3ED4F964B4D4308903C0566 /* /Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/src/gtest-all.cc */ = {isa = PBXBuildFile; fileRef = 6127A1EDF95448449F715AAD /* /Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/src/gtest-all.cc */; settings = { COMPILER_FLAGS = ""; }; };
+70E7FCA03EEE47479BF7B48F /* /Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1D0211E0CC11455FB8A56B93 /* /Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+B97C1D3070C348B5B451AFB6 /* /Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/src/gtest_main.cc */ = {isa = PBXBuildFile; fileRef = 5173C22F16924149B64F0023 /* /Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/src/gtest_main.cc */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              D0A78407F0074A54B7D80521 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              4E37482C25D44D31AD8702C2 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              779FBB617D8B45DB8260781E /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              5FD9010D1258407F9E4EE69B /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              34F6D9B6396746A796E0BAD8 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              6F96B8EE9C994CE58106F635 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = BD0893F5EB254A898209F2ED /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 7A2FBF1C997946329C8BAE1F;
+                     remoteInfo = gtest;
+              };
+              9FEF153E657E4C48A5999326 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = BD0893F5EB254A898209F2ED /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = A80E68531E5044D68A48D476;
+                     remoteInfo = gtest_main;
+              };
+              214EC7084166452CA73389F3 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = BD0893F5EB254A898209F2ED /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = CD55FB7ABE354345974CC7C1;
+                     remoteInfo = ZERO_CHECK;
+              };
+              A79A1130F2054730B11190CC /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = BD0893F5EB254A898209F2ED /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = CD55FB7ABE354345974CC7C1;
+                     remoteInfo = ZERO_CHECK;
+              };
+              7426A4D4637346FC8BD024C1 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = BD0893F5EB254A898209F2ED /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 7A2FBF1C997946329C8BAE1F;
+                     remoteInfo = gtest;
+              };
+              A381A329D2934698B79C243C /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = BD0893F5EB254A898209F2ED /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = CD55FB7ABE354345974CC7C1;
+                     remoteInfo = ZERO_CHECK;
+              };
+              A6D08D3C281A48BF9B36C7A4 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = BD0893F5EB254A898209F2ED /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = AA59D97442024222871C8F20;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+F8C354EC58A84867B038EFC7 /* /Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+0440B13762874CAAA6CE3DE6 /* /Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+836C611E9AC148DE9188E286 /* /Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+6127A1EDF95448449F715AAD /* /Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/src/gtest-all.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "gtest-all.cc"; path = "src/gtest-all.cc"; sourceTree = SOURCE_ROOT; };
+A32C6AE99AA648C28C018B12 /* gtest */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libgtest.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+1D0211E0CC11455FB8A56B93 /* /Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+5173C22F16924149B64F0023 /* /Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/src/gtest_main.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "gtest_main.cc"; path = "src/gtest_main.cc"; sourceTree = SOURCE_ROOT; };
+EDC39E1B125543DEB816253D /* gtest_main */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libgtest_main.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              6D25C734166A499585EE0989  = {
+                     isa = PBXGroup;
+                     children = (
+                            7FA839B539E24FA69C3FCACF /* Sources */,
+                            E10EFEA0970E4FBAAA6DF1D6 /* Resources */,
+                            0CD6C33DC85E4C3280C3B815 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              7FA839B539E24FA69C3FCACF /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            3EEFAE0EEBBC4B75B76640ED /* gtest */,
+                            69620287F58847D094DB25CB /* ALL_BUILD */,
+                            15D6FD966121448F9CC96729 /* gtest_main */,
+                            E4C0ED90B49F4B1E8FDBB294 /* ZERO_CHECK */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              E10EFEA0970E4FBAAA6DF1D6 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              3EEFAE0EEBBC4B75B76640ED /* gtest */ = {
+                     isa = PBXGroup;
+                     children = (
+                            C3C223E7459347BEAFA6C1F3 /* Source Files */,
+                            836C611E9AC148DE9188E286 /* /Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/CMakeLists.txt */,
+                     );
+                     name = gtest;
+                     sourceTree = "<group>";
+              };
+              C3C223E7459347BEAFA6C1F3 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            6127A1EDF95448449F715AAD /* /Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/src/gtest-all.cc */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              69620287F58847D094DB25CB /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            C91D94E332A649748A27D302 /* CMake Rules */,
+                            F8C354EC58A84867B038EFC7 /* /Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              C91D94E332A649748A27D302 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              15D6FD966121448F9CC96729 /* gtest_main */ = {
+                     isa = PBXGroup;
+                     children = (
+                            C8425390C76A401AA4769B25 /* Source Files */,
+                            1D0211E0CC11455FB8A56B93 /* /Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/CMakeLists.txt */,
+                     );
+                     name = gtest_main;
+                     sourceTree = "<group>";
+              };
+              C8425390C76A401AA4769B25 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            5173C22F16924149B64F0023 /* /Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/src/gtest_main.cc */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              E4C0ED90B49F4B1E8FDBB294 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            9C6E6FF8609342CAA429E21B /* CMake Rules */,
+                            0440B13762874CAAA6CE3DE6 /* /Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              9C6E6FF8609342CAA429E21B /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              0CD6C33DC85E4C3280C3B815 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            A32C6AE99AA648C28C018B12 /* gtest */,
+                            EDC39E1B125543DEB816253D /* gtest_main */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              7A2FBF1C997946329C8BAE1F /* gtest */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = C42F7C3744FB4D528B756BF3 /* Build configuration list for PBXNativeTarget "gtest" */;
+                     buildPhases = (
+                            F63D4EE2B653433A957D8EAD /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            62F096ABDE094AB5B87D9FA0 /* PBXTargetDependency */,
+                     );
+                     name = gtest;
+                     productName = gtest;
+                     productReference = A32C6AE99AA648C28C018B12 /* gtest */;
+                     productType = "com.apple.product-type.library.static";
+              };
+              A80E68531E5044D68A48D476 /* gtest_main */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = BBBBF76810574F66B01315DE /* Build configuration list for PBXNativeTarget "gtest_main" */;
+                     buildPhases = (
+                            AE1F9EDC59464BFB95E6EE3B /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            AA6E8E1C2DC541B78400F317 /* PBXTargetDependency */,
+                            7E64EFAA2DB3466393C3FEF6 /* PBXTargetDependency */,
+                     );
+                     name = gtest_main;
+                     productName = gtest_main;
+                     productReference = EDC39E1B125543DEB816253D /* gtest_main */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              BD0893F5EB254A898209F2ED /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 277DD8213E284BD3A6C9EC7E /* Build configuration list for PBXProject  "gtest" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            4E37482C25D44D31AD8702C2 /* Debug */,
+                            779FBB617D8B45DB8260781E /* Release */,
+                            5FD9010D1258407F9E4EE69B /* MinSizeRel */,
+                            34F6D9B6396746A796E0BAD8 /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 6D25C734166A499585EE0989;
+                     projectDirPath = "../../../3rdparty/gtest-1.7.0";
+                     projectRoot = "";
+                     targets = (
+                            AA59D97442024222871C8F20 /* ALL_BUILD */,
+                            09470D2C2A0942569A10DD26 /* RUN_TESTS */,
+                            CD55FB7ABE354345974CC7C1 /* ZERO_CHECK */,
+                            7A2FBF1C997946329C8BAE1F /* gtest */,
+                            A80E68531E5044D68A48D476 /* gtest_main */,
+                            8107596B66DE4C9DAB94B808 /* install */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              B1DBAB5471AC4A8AA871A6DD /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              449EA53DE5A545E2B56E9194 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0 -f /Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              BB6928D6E3C941929D9C58E6 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              8D8E99E8366046148F3679B9 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0 -f /Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              8AEA56CF24D7487D85D398EE /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              8B0A391A2B8342E081761648 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0 -f /Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              FC3600BC336740F8BF4594F7 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              48FE88379054461BA50D8511 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0 -f /Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              F63D4EE2B653433A957D8EAD /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            E3ED4F964B4D4308903C0566 /* /Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/src/gtest-all.cc */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+              AE1F9EDC59464BFB95E6EE3B /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            B97C1D3070C348B5B451AFB6 /* /Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/src/gtest_main.cc */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              C49BBA184575433DA29F762C /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 7A2FBF1C997946329C8BAE1F /* gtest */;
+                     targetProxy = 6F96B8EE9C994CE58106F635 /* PBXContainerItemProxy */;
+              };
+              1BAC20C0AB644E8AB5DE985F /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = A80E68531E5044D68A48D476 /* gtest_main */;
+                     targetProxy = 9FEF153E657E4C48A5999326 /* PBXContainerItemProxy */;
+              };
+              03A5A91268C44921B94075EB /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = CD55FB7ABE354345974CC7C1 /* ZERO_CHECK */;
+                     targetProxy = 214EC7084166452CA73389F3 /* PBXContainerItemProxy */;
+              };
+              62F096ABDE094AB5B87D9FA0 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = CD55FB7ABE354345974CC7C1 /* ZERO_CHECK */;
+                     targetProxy = A79A1130F2054730B11190CC /* PBXContainerItemProxy */;
+              };
+              AA6E8E1C2DC541B78400F317 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 7A2FBF1C997946329C8BAE1F /* gtest */;
+                     targetProxy = 7426A4D4637346FC8BD024C1 /* PBXContainerItemProxy */;
+              };
+              7E64EFAA2DB3466393C3FEF6 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = CD55FB7ABE354345974CC7C1 /* ZERO_CHECK */;
+                     targetProxy = A381A329D2934698B79C243C /* PBXContainerItemProxy */;
+              };
+              94AF32D251E348C5BE200DA1 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = AA59D97442024222871C8F20 /* ALL_BUILD */;
+                     targetProxy = A6D08D3C281A48BF9B36C7A4 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              C8EB3A4E0E584B74A6F41946 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = "/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0/build";
+                     };
+                     name = Debug;
+              };
+              75D894F23F084F318EE92899 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = "/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0/build";
+                     };
+                     name = Release;
+              };
+              A7764ADC56D44E67965CB050 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = "/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0/build";
+                     };
+                     name = MinSizeRel;
+              };
+              2E16EA92A36044A7A91C6FE4 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = "/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0/build";
+                     };
+                     name = RelWithDebInfo;
+              };
+              90CC9C60008C4A5895E0B002 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/include", "/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              6E64E192352D4D1D87B0E037 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/include", "/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              21759ED7D8B34D87804C86EF /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/include", "/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              81F6553A44F84A7A8C14A519 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/include", "/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              AA9B3BBA61E74CE187D3CC74 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/include", "/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = RUN_TESTS;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              30776D79F7014919B0BBFEA1 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/include", "/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = RUN_TESTS;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              67D51F9F07DE4F37B946F74E /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/include", "/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = RUN_TESTS;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              2583CC5F09D344C1B2F32DF6 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/include", "/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = RUN_TESTS;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              E2A66A635B8D46209A12D62A /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/include", "/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              8B90B69494644226A6FE3D8B /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/include", "/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              4FC6C65917584CEFA2641794 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/include", "/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              DFBFBD1EFC4D4F05BE85C218 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/include", "/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              CC79876DDBF44133AB1229E3 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/include", "/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "     -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_CPLUSPLUSFLAGS = "     -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_LIBTOOLFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gtest;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              CA9BC5784CDE41509804E3B3 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/include", "/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG   -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_LIBTOOLFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gtest;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              18365566645A47BF8D8B63BE /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/include", "/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG   -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_LIBTOOLFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gtest;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              D4F9AD80CA1048C699FC5753 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/include", "/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "       -DNDEBUG   -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG   -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_LIBTOOLFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gtest;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              D18C351DA39744378A555C60 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/include", "/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "     -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_CPLUSPLUSFLAGS = "     -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_LIBTOOLFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gtest_main;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              6A28DB5713724FC98F1B8C2C /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/include", "/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG   -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_LIBTOOLFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gtest_main;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              AF3AFB283917444E980A60F3 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/include", "/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG   -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_LIBTOOLFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gtest_main;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              D1BE3DEE25AF40CEB900D795 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/include", "/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "       -DNDEBUG   -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG   -DGTEST_HAS_PTHREAD=1    ";
+                            OTHER_LIBTOOLFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = gtest_main;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              701543607EE74BD8B3D3EBE0 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/include", "/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              03E4F03FE3CE4058A6421CBD /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/include", "/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              4DE9C9B4D3A3485EA577CFFF /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/include", "/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              039BB13FEBB84558B5601F46 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0/include", "/Users/ndr/Documents/mycode/EasyCNNApp/3rdparty/gtest-1.7.0", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              277DD8213E284BD3A6C9EC7E /* Build configuration list for PBXProject  "gtest" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            C8EB3A4E0E584B74A6F41946 /* Debug */,
+                            75D894F23F084F318EE92899 /* Release */,
+                            A7764ADC56D44E67965CB050 /* MinSizeRel */,
+                            2E16EA92A36044A7A91C6FE4 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              75F9C9F7451C4ABB8042ED44 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            90CC9C60008C4A5895E0B002 /* Debug */,
+                            6E64E192352D4D1D87B0E037 /* Release */,
+                            21759ED7D8B34D87804C86EF /* MinSizeRel */,
+                            81F6553A44F84A7A8C14A519 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              5AC8E2B5EA5A4FE8A144B51F /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            AA9B3BBA61E74CE187D3CC74 /* Debug */,
+                            30776D79F7014919B0BBFEA1 /* Release */,
+                            67D51F9F07DE4F37B946F74E /* MinSizeRel */,
+                            2583CC5F09D344C1B2F32DF6 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              80533084E8084D18BAFB8EE3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            E2A66A635B8D46209A12D62A /* Debug */,
+                            8B90B69494644226A6FE3D8B /* Release */,
+                            4FC6C65917584CEFA2641794 /* MinSizeRel */,
+                            DFBFBD1EFC4D4F05BE85C218 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              C42F7C3744FB4D528B756BF3 /* Build configuration list for PBXNativeTarget "gtest" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            CC79876DDBF44133AB1229E3 /* Debug */,
+                            CA9BC5784CDE41509804E3B3 /* Release */,
+                            18365566645A47BF8D8B63BE /* MinSizeRel */,
+                            D4F9AD80CA1048C699FC5753 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              BBBBF76810574F66B01315DE /* Build configuration list for PBXNativeTarget "gtest_main" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            D18C351DA39744378A555C60 /* Debug */,
+                            6A28DB5713724FC98F1B8C2C /* Release */,
+                            AF3AFB283917444E980A60F3 /* MinSizeRel */,
+                            D1BE3DEE25AF40CEB900D795 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              8D107D8263BB4F92B68659A4 /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            701543607EE74BD8B3D3EBE0 /* Debug */,
+                            03E4F03FE3CE4058A6421CBD /* Release */,
+                            4DE9C9B4D3A3485EA577CFFF /* MinSizeRel */,
+                            039BB13FEBB84558B5601F46 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = BD0893F5EB254A898209F2ED;
+}

@@ -1,0 +1,8 @@
+/Users/ndr/Documents/mycode/EasyCNNApp/build/CNN/CMakeFiles/test_CNN.dir
+/Users/ndr/Documents/mycode/EasyCNNApp/build/CNN/CMakeFiles/CNN.dir
+/Users/ndr/Documents/mycode/EasyCNNApp/build/CMakeFiles/check.dir
+/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0/CMakeFiles/gtest.dir
+/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0/CMakeFiles/ALL_BUILD.dir
+/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0/CMakeFiles/gtest_main.dir
+/Users/ndr/Documents/mycode/EasyCNNApp/build/3rdparty/gtest-1.7.0/CMakeFiles/ZERO_CHECK.dir
+/Users/ndr/Documents/mycode/EasyCNNApp/build/EasyCNNApp/CMakeFiles/EasyCNNApp.dir
